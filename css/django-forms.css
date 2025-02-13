@@ -1,0 +1,52 @@
+/* errors */
+.errorlist {
+  color: red;
+}
+
+/* forms */
+form div {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+}
+
+form .errorlist {
+  font-weight: 500;
+}
+
+form div .helptext {
+  color: var(--ink-600);
+  font-weight: normal;
+  font-size: 0.833em;
+}
+
+label {
+  font-weight: 600;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+.pseudo-textarea,
+select {
+  padding: 8px 12px;
+  border: 1px solid var(--ink-900);
+  font-size: 1.8rem;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: var(--links);
+  outline: none;
+}

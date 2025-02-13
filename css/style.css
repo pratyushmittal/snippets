@@ -19,8 +19,10 @@
   --base: hsla(202, 0%, 100%);
   --page-base: hsla(202, 0%, 90%);
 
-  --ink: hsla(202, 0%, 100%);
+  --ink-900: hsla(202, 0%, 100%);
   --ink-600: hsla(202, 0%, 40%);
+
+  --links: hsla(202, 98%, 53%);
 
   --border: hsla(202, 4%, 90%);
   --border-input: hsla(202, 4%, 46%);
@@ -97,6 +99,7 @@ input {
 }
 
 a {
+  color: var(--links);
   font-weight: 500;
   text-decoration: underline;
 }
@@ -160,10 +163,6 @@ a {
 .full-width,
 .width-100p {
   width: 100%;
-}
-
-.bg-base {
-  background: var(--bg-base);
 }
 
 /*colors*/
