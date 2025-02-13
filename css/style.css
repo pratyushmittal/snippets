@@ -109,6 +109,13 @@ a {
   text-decoration: underline;
 }
 
+code {
+  background: var(--page-base);
+  font-size: 1.4rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
 /*utilities*/
 .flex-row {
   display: flex;
