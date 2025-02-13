@@ -27,6 +27,8 @@
 
   color: var(--ink-900);
   background-color: var(--page-base);
+  /*set base size as 10px*/
+  font-size: 0.625em;
 }
 
 img,
@@ -78,8 +80,7 @@ body {
   flex-direction: column;
 
   font-family: "Newsreader", serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.6rem;
 }
 
 button {
